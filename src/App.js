@@ -14,6 +14,8 @@ import SearchBox from "./components/search";
 import { useEffect } from "react";
 import Services from "./components/Services/Services";
 import Process from "./components/Process/Process";
+import Contact from "./components/Contact/Contact";
+import Equipment from "./components/Equipment/Equipment";
 
 function App() {
   useEffect(() => {
@@ -29,20 +31,22 @@ function App() {
         }}
       >
         <Stack>
-          {/* <UIProvider>
-            <Appbar />
+          <UIProvider>
+            {/* <Appbar />
             <Banner />
             <Promotions />
-            <SearchBox />
-            <Box display="flex" justifyContent="center" sx={{ p: 4 }}>
+            <SearchBox /> */}
+            {/* <Box display="flex" justifyContent="center" sx={{ p: 4 }}>
               <Typography variant="h4">Our Products</Typography>
-            </Box>
-            <Products />
-            <Footer />
-            <AppDrawer />
-          </UIProvider> */}
+            </Box> */}
+            {/* <Products />
+            <Footer /> */}
+            {/* <AppDrawer /> */}
+          </UIProvider>
           {/* <Services></Services> */}
-          <Process></Process>
+          {/* <Process></Process> */}
+          <Contact></Contact>
+          <Equipment></Equipment>
           
         </Stack>
       </Container>
